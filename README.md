@@ -32,7 +32,8 @@ Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** pa
 Para ejecutar los *scripts*, necesitarás las siguientes librerías de Python.
 
 ```bash
-pip install opencv-python tensorflow numpy````
+pip install opencv-python tensorflow numpy
+```
 
 Asegúrate de que tus archivos de modelo se encuentren en el directorio `./models/` tal como están referenciados en los *scripts*.
 
