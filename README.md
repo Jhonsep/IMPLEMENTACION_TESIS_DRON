@@ -1,4 +1,4 @@
-`# 🚁 Sistema de Rastreo y Detección de Drones (A1 + A2)
+# 🚁 Sistema de Rastreo y Detección de Drones (A1 + A2)
 
 Este proyecto implementa una doble arquitectura de red neuronal (A1 y A2) para el **rastreo de un objetivo** (basado en la matriz espacio-tiempo o STM) y la **clasificación binaria** (Drone/NoDrone) dentro de una región de interés (ROI) en tiempo real, utilizando **OpenCV** y **TensorFlow/Keras**.
 
