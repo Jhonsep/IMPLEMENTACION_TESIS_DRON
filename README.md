@@ -1,6 +1,16 @@
-# 🚁 Sistema de Rastreo y Detección de Drones (A1 + A2)
+# 🎓 Anexos de Tesis: Redes Poco Profundas Autoajustadas para la Detección de Drones
 
-Este proyecto implementa una doble arquitectura de red neuronal (A1 y A2) para el **rastreo de un objetivo** (basado en la matriz espacio-tiempo o STM) y la **clasificación binaria** (Drone/NoDrone) dentro de una región de interés (ROI) en tiempo real, utilizando **OpenCV** y **TensorFlow/Keras**.
+Este repositorio alberga el **código fuente, modelos y *benchmarks*** resultantes de la investigación presentada como requisito parcial para optar al título de **Ingeniero Electrónico** ante la ilustre **Universidad Simón Bolívar**.
+
+El contenido aquí expuesto corresponde a la implementación práctica de la tesis titulada:
+
+### **"Redes Poco Profundas Autoajustadas para la Detección de Drones"**
+
+---
+
+# <img src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-68rfbsUnBY2TBf4kEsCmMWHvcnSnKO.png&w=500&q=75" alt="Drone Tracking Badge" width="60"/> Sistema de Rastreo y Detección de Drones (A1 + A2)
+
+Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** para el **rastreo de un objetivo** (basado en la matriz espacio-tiempo o STM) y la **clasificación binaria** (Drone/NoDrone) dentro de una región de interés (ROI) en tiempo real, utilizando **OpenCV** y **TensorFlow/Keras**.
 
 ---
 
@@ -42,6 +52,8 @@ Los parámetros principales se definen al inicio de cada *script*. **Asegúrate 
 | `ROI_H`, `ROI_W` | Todos | Dimensiones de la Región de Interés (ROI). |
 | `CONFIDENCE` | A1_A2, test | Umbral de confianza para la clasificación (A2). |
 | `DAMPERING` | A1_A2, test | Número de detecciones consecutivas requeridas para confirmar el objeto (amortiguación). |
+
+Exportar a Hojas de cálculo
 
 ### Ejecución con Medición de Rendimiento
 
