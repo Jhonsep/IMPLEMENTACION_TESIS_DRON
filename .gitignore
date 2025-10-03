@@ -1,0 +1,7 @@
+#Ignorar archivos de entorno virtual
+venv/
+
+# Caché y archivos temporales
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
