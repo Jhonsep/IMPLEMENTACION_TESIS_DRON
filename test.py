@@ -44,7 +44,7 @@ LOW_THRESHOLD = 40               # Canny low threshold
 HIGH_THRESHOLD = 80              # Canny high threshold
 
 HUD_ON = False                   # HUD activo por defecto
-SHOW_EDGES = True                # ventana de bordes activa por defecto
+SHOW_EDGES = False                # ventana de bordes activa por defecto
 DAMPERING = 30                   # amortiguación de detección (frames consecutivos)
 
 # Medición / logging
