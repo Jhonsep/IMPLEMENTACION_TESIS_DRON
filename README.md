@@ -24,6 +24,9 @@ Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** pa
     * `OTA_drone_model_E3_T2.keras` (Modelo A1: *Offset Tracking Autoencoder*)
     * `recognizer_dron_model_T1.keras` (Modelo A2: Reconocimiento/Clasificación)
 * `images/`: Directorio para imágenes de ejemplo o referencias (como capturas de pantalla del HUD o el ROI).
+* **`notebooks/`**: Directorio que contiene los *notebooks* de Google Colab utilizados para el entrenamiento y la experimentación.
+    * `training_A1_OTA.ipynb`: **Código de entrenamiento** de la arquitectura A1 (Offset Tracking Autoencoder).
+    * `training_A2_recognizer.ipynb`: **Código de entrenamiento** de la arquitectura A2 (Reconocimiento/Clasificación por STM).
 
 ---
 
@@ -32,8 +35,9 @@ Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** pa
 Para ejecutar los *scripts*, necesitarás las siguientes librerías de Python.
 
 ```bash
-pip install opencv-python tensorflow numpy
-```
+pip install opencv-python tensorflow numpy`
+
+`````
 
 Asegúrate de que tus archivos de modelo se encuentren en el directorio `./models/` tal como están referenciados en los *scripts*.
 
@@ -53,8 +57,6 @@ Los parámetros principales se definen al inicio de cada *script*. **Asegúrate 
 | `ROI_H`, `ROI_W` | Todos | Dimensiones de la Región de Interés (ROI). |
 | `CONFIDENCE` | A1_A2, test | Umbral de confianza para la clasificación (A2). |
 | `DAMPERING` | A1_A2, test | Número de detecciones consecutivas requeridas para confirmar el objeto (amortiguación). |
-
-Exportar a Hojas de cálculo
 
 ### Ejecución con Medición de Rendimiento
 
