@@ -10,7 +10,7 @@ El contenido aquí expuesto corresponde a la implementación práctica de la tes
 
 # <img src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-68rfbsUnBY2TBf4kEsCmMWHvcnSnKO.png&w=500&q=75" alt="Drone Tracking Badge" width="60"/> Sistema de Rastreo y Detección de Drones (A1 + A2)
 
-Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** para el **rastreo de un objetivo** (basado en la matriz espacio-tiempo o STM) y la **clasificación binaria** (Drone/NoDrone) dentro de una región de interés (ROI) en tiempo real, utilizando **OpenCV** y **TensorFlow/Keras**.
+Este proyecto implementa una **doble arquitectura de red neuronal (A1 y A2)** para el **rastreo de un objetivo** (basado en la matriz espacio-tiempo o STM) y la **verificación binaria** (Drone/NoDrone) dentro de una región de interés (ROI) en tiempo real, utilizando **OpenCV** y **TensorFlow/Keras**.
 
 ---
 
