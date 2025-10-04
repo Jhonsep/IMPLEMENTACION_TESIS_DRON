@@ -1,4 +1,4 @@
-# <img src="http://www.usb.ve/conocer/corporativa/archivos/logos/logo/logo.png" alt="Drone Tracking Badge" width="60"/> Anexos de Tesis: Redes Poco Profundas Autoajustadas para la Detección de Drones
+# 🎓 Anexos de Tesis: Redes Poco Profundas Autoajustadas para la Detección de Drones
 
 Este repositorio alberga el **código fuente, modelos y *benchmarks*** resultantes de la investigación presentada como requisito parcial para optar al título de **Ingeniero Electrónico** ante la ilustre **Universidad Simón Bolívar**.
 
