@@ -12,7 +12,7 @@ from tensorflow.keras import layers, Model, saving
 # Configuración (EDITA RUTAS)
 # ===============================
 A1_MODEL_PATH = r'models\OTA_drone_model_E3_T2.keras'
-A2_MODEL_PATH = r'models\recognizer_dron_model_T1.keras'
+A2_MODEL_PATH = r'C:\Universidad\proyecto_de_grado\Implementacion_Tesis_Drones\models\recognizer_dron_model_T1.keras'
 INPUT_IMAGE_SIZE = (960, 720)   # (width, height) de la cámara
 ROI_H, ROI_W = 160, 240         # tamaño de ROI que consume A1
 INITIAL_ROI_CENTER = [INPUT_IMAGE_SIZE[0] // 2, INPUT_IMAGE_SIZE[1] // 2]
@@ -20,11 +20,11 @@ MIN_OFFSET = -5                 # índices 0..10 -> offsets -5..+5
 STM_LENGTH = 10                 # longitud de la Space-Time Matrix
 OUTPUT_DIM = 22                 # 11 X + 11 Y
 
-CAMERA_INDEX = 1               # cambia a 0 si tu cámara principal es 0
+CAMERA_INDEX = 2               # cambia a 0 si tu cámara principal es 0
 PROCESS_EVERY = 2               # procesa cada N frames para aliviar CPU (1 = todos)
 CONFIDENCE = 0.99              # umbral de confianza para decidir Drone/NoDrone
-LOW_THRESHOLD = 40           # Canny low threshold
-HIGH_THRESHOLD = 80        # Canny high threshold
+LOW_THRESHOLD = 30             # Canny low threshold
+HIGH_THRESHOLD = 90         # Canny high threshold
 # HUD / Ventanas
 HUD_ON = False                   # HUD activo por defecto
 SHOW_EDGES = True             # ventana de bordes apagada por defecto
